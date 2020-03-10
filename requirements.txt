@@ -1,4 +1,7 @@
 alabaster==0.7.12
+anaconda-client==1.7.2
+anaconda-navigator==1.9.7
+anaconda-project==0.8.3
 asgiref==3.2.3
 asn1crypto==1.0.1
 astroid==2.3.3
@@ -41,7 +44,9 @@ dask==2.5.2
 decorator==4.4.0
 defusedxml==0.6.0
 distributed==2.5.2
+dj-database-url==0.5.0
 Django==3.0.4
+django-heroku==0.3.1
 docutils==0.15.2
 entrypoints==0.3
 et-xmlfile==1.0.1
@@ -53,6 +58,7 @@ future==0.17.1
 gevent==1.4.0
 glob2==0.7
 greenlet==0.4.15
+gunicorn==20.0.4
 h5py==2.9.0
 HeapDict==1.0.1
 html5lib==1.0.1
@@ -129,6 +135,7 @@ ply==3.11
 prometheus-client==0.7.1
 prompt-toolkit==2.0.10
 psutil==5.6.3
+psycopg2==2.8.4
 py==1.8.0
 pycodestyle==2.5.0
 pycosat==0.6.3
@@ -203,6 +210,7 @@ urllib3==1.25.8
 wcwidth==0.1.7
 webencodings==0.5.1
 Werkzeug==0.16.0
+whitenoise==5.0.1
 widgetsnbextension==3.5.1
 win-inet-pton==1.1.0
 win-unicode-console==0.5
