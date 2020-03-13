@@ -15,38 +15,38 @@
 <body>
     <nav>
         <div class="container nav-wrapper">
-            <a href="/" class="brand-logo">Codedaddies List By root@amin:~ (@osl85)</a>
+            <a href="/" class="brand-logo">root@amin (@osl85) توسط</a>
             <ul id="nav-mobile" class="right">
-                <li><a href="/">Home</a></li>
+                <li><a href="/">صفحه اصلی</a></li>
             </ul>
         </div>
     </nav>
 
     <div class="container">
 
-    <h1 style="text-align: center;">What do you want to search?</h1>
+    <h1 style="text-align: center;">اینجا میتونی خواسته هات رو جستجو کنی</h1>
     <div class="row">
             <div class="col s4">
                 <div class="center">
                     <i class="large material-icons" style="color: #EE6E73;">flash_on</i>
-                    <p>Fast craigslist web scraper</p>
-                    <p class="light center">Scrape away right here with a beautiful GUI.</p>
+                    <p>craigslist سریعترین سایت برای</p>
+                    <p class="light center">زیباتر از سایت اصلی با امکاناتی بیشتر</p>
                 </div>
             </div>
 
             <div class="col s4">
                 <div class="center">
                     <i class="large material-icons" style="color: orange;">camera</i>
-                    <p>Filter your searches</p>
-                    <p class="light center">We built a functionality to filter based on pricing</p>
+                    <p>خواسته هات رو فیلتر کن</p>
+                    <p class="light center">گزینه ای ساختیم برای قیلتر کردن راحت تر قیمت ها</p>
                 </div>
             </div>
 
             <div class="col s4">
                 <div class="center">
                     <i class="large material-icons" style="color: blue;">chrome_reader_mode</i>
-                    <p>A much sexier front-end to Craigslist</p>
-                    <p class="light center">We built this with ❤️️</p>
+                    <p>craiglist.com فرانت اند بسیار جذاب تر از خود</p>
+                    <p class="light center">اینجارو با ❤️ ️ساخته ایم</p>
                 </div>
             </div>
         
@@ -54,8 +54,8 @@
 
     <form action="{% url 'new_search' %}" method="POST">
         {% csrf_token %}
-        <input type="text" name="search" placeholder="search">
-        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+        <input type="text" name="search" placeholder="اینجا خواسته خود را تایپ کنین">
+        <button class="btn waves-effect waves-light" type="submit" name="action">جستجو
             <i class="material-icons right">send</i>
         </button>
     </form>
