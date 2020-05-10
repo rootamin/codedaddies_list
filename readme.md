@@ -1,4 +1,4 @@
-#This is a craigslist clone by @osl85 called codedaddies_list
+#This is a craigslist clone by @rootamin called codedaddies_list
 
 #First install requirements using: pip install -r requirements.txt
 
@@ -6,4 +6,4 @@
 
 #you can watch this app on http://djangoosl85codedaddies.herokuapp.com/
 
-#Answer your questions in my Telegram @osl85
+#Answer your questions in my Telegram @rootamin
